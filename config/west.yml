@@ -3,7 +3,7 @@ manifest:
   # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
   projects:
     - name: zmk
-      url: https://github.com/EagleVee/zmks
+      url: https://github.com/ph-design/zmks
       revision: 2g4-impl
       import: app/west.yml
   self:
