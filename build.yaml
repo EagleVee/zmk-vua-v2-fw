@@ -36,7 +36,7 @@ include:
 
   - board: nice_nano
     shield: Chutchit_dongle
-    snippet: usb-logging
+    snippet: zmk-usb-logging
     artifact-name: Chutchit_dongle_logging
 
   - board: nice_nano
