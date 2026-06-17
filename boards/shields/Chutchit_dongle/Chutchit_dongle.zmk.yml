@@ -1,15 +1,7 @@
 file_format: "1"
-id: chutchit_dongle
+id: Chutchit_dongle
 name: Chutchit Dongle
 type: shield
-url: https://github.com/ph-design/zmk-vua-v2-fw
-requires: [nrf52840dongle_nrf52840]
+requires: [nice_nano]
 features:
   - usb
-  - 2g4_wireless
-layouts:
-  LAYOUT:
-    c_width: 1
-    c_height: 1
-    layout:
-      - []
