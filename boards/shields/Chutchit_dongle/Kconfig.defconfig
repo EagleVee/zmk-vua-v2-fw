@@ -1,12 +1,6 @@
 if SHIELD_CHUTCHIT_DONGLE
 
 config ZMK_KEYBOARD_NAME
-    default "Chutchit Dongle"
-
-config ZMK_2G4_DONGLE
-    default y
-
-config ZMK_USB_HID
-    default y
+    default "VU.A 2.0 Dongle"
 
 endif
