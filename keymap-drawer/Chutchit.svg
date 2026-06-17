@@ -1,8 +1,5 @@
 <svg width="1480" height="1680" viewBox="0 0 1480 1680" class="keymap" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>/* start glyphs */
-<svg id="mdi:apple-keyboard-caps">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-apple-keyboard-caps" viewBox="0 0 24 24"><path d="M15,14V8H17.17L12,2.83L6.83,8H9V14H15M12,0L22,10H17V16H7V10H2L12,0M7,18H17V24H7V18M15,20H9V22H15V20Z" /></svg>
-</svg>
 <svg id="mdi:apple-keyboard-control">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-apple-keyboard-control" viewBox="0 0 24 24"><path d="M19.78,11.78L18.36,13.19L12,6.83L5.64,13.19L4.22,11.78L12,4L19.78,11.78Z" /></svg>
 </svg>
@@ -479,8 +476,9 @@ rect.held, rect.combo.held {
 <g transform="translate(35, 140)" class="key keypos-38">
 <rect rx="6" ry="6" x="-33" y="-26" width="66" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-27" y="-24" width="54" height="40" class="key"/>
-<use href="#mdi:apple-keyboard-caps" xlink:href="#mdi:apple-keyboard-caps" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:apple-keyboard-caps"/>
-</g>
+<a href="#x_x">
+<text x="0" y="-4" class="key tap layer-activator">1</text>
+</a></g>
 <g transform="translate(126, 140)" class="key keypos-39">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
@@ -713,8 +711,9 @@ rect.held, rect.combo.held {
 <g transform="translate(882, 252)" class="key keypos-81">
 <rect rx="6" ry="6" x="-40" y="-26" width="80" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-34" y="-24" width="68" height="40" class="key"/>
-<use href="#mdi:apple-keyboard-control" xlink:href="#mdi:apple-keyboard-control" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:apple-keyboard-control"/>
-</g>
+<a href="#x_x">
+<text x="0" y="-4" class="key tap layer-activator">1</text>
+</a></g>
 <g transform="translate(966, 266)" class="key keypos-82">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
@@ -961,10 +960,9 @@ rect.held, rect.combo.held {
 <rect rx="4" ry="4" x="-20" y="-52" width="40" height="96" class="key trans"/>
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
 </g>
-<g transform="translate(35, 140)" class="key trans keypos-38">
-<rect rx="6" ry="6" x="-33" y="-26" width="66" height="52" class="key trans side"/>
-<rect rx="4" ry="4" x="-27" y="-24" width="54" height="40" class="key trans"/>
-<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+<g transform="translate(35, 140)" class="key held keypos-38">
+<rect rx="6" ry="6" x="-33" y="-26" width="66" height="52" class="key held side"/>
+<rect rx="4" ry="4" x="-27" y="-24" width="54" height="40" class="key held"/>
 </g>
 <g transform="translate(126, 140)" class="key trans keypos-39">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
@@ -1176,10 +1174,9 @@ rect.held, rect.combo.held {
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
 </g>
-<g transform="translate(882, 252)" class="key trans keypos-81">
-<rect rx="6" ry="6" x="-40" y="-26" width="80" height="52" class="key trans side"/>
-<rect rx="4" ry="4" x="-34" y="-24" width="68" height="40" class="key trans"/>
-<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+<g transform="translate(882, 252)" class="key held alternate keypos-81">
+<rect rx="6" ry="6" x="-40" y="-26" width="80" height="52" class="key held alternate side"/>
+<rect rx="4" ry="4" x="-34" y="-24" width="68" height="40" class="key held alternate"/>
 </g>
 <g transform="translate(966, 266)" class="key trans keypos-82">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
