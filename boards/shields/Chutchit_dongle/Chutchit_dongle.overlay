@@ -16,18 +16,6 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 #include <dt-bindings/led/led.h>
 
-/*
- * behaviors.dtsi unconditionally defines ug_battery nodes which compile
- * behavior_underglow_battery.c — that file calls zmk_battery_state_of_charge
- * which is undefined on a USB-powered dongle with no battery sensor.
- * Disabling all four nodes makes DT_HAS_COMPAT_STATUS_OKAY return false
- * and the battery code is dropped from the build.
- */
-&ug_b2 { status = "disabled"; };
-&ug_b4 { status = "disabled"; };
-&ug_b6 { status = "disabled"; };
-&ug_b8 { status = "disabled"; };
-
 / {
     chosen {
         zmk,kscan = &mock_kscan;
