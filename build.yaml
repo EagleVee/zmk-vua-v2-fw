@@ -31,6 +31,8 @@ include:
     shield: Chutchit_num
     cmake-args: -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
   
+  - board: nrf52840dongle_nrf52840
+    shield: Chutchit_dongle
 
   - board: nice_nano
     shield: settings_reset
