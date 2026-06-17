@@ -1,11 +1,21 @@
 /*
  * Chutchit Dongle Overlay
  * nRF52840 Dongle as 2.4G receiver
+ * Matrix/keymap stubs required by ZMK build system even though
+ * the dongle forwards HID reports directly from 2.4G.
  */
 
 / {
     chosen {
         zephyr,console = &cdc_acm_uart;
         zephyr,shell-uart = &cdc_acm_uart;
+        zmk,matrix_transform = &dongle_transform;
+    };
+
+    dongle_transform: dongle_transform {
+        compatible = "zmk,matrix-transform";
+        columns = <1>;
+        rows = <1>;
+        map = <RC(0,0)>;
     };
 };
