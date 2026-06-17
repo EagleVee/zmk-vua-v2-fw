@@ -35,4 +35,9 @@ include:
     shield: Chutchit_dongle
 
   - board: nice_nano
+    shield: Chutchit_dongle
+    snippet: usb-logging
+    artifact-name: Chutchit_dongle_logging
+
+  - board: nice_nano
     shield: settings_reset
