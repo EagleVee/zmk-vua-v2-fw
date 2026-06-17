@@ -3,4 +3,28 @@ if SHIELD_CHUTCHIT_DONGLE
 config ZMK_KEYBOARD_NAME
     default "VU.A 2.0 Dongle"
 
-endif
+if ZMK_DISPLAY
+
+config I2C
+    default y
+
+config SSD1306
+    default y
+
+choice ZMK_DISPLAY_WORK_QUEUE
+    default ZMK_DISPLAY_WORK_QUEUE_DEDICATED
+endchoice
+
+endif # ZMK_DISPLAY
+
+if ZMK_BACKLIGHT
+
+config PWM
+    default y
+
+config LED_PWM
+    default y
+
+endif # ZMK_BACKLIGHT
+
+endif # SHIELD_CHUTCHIT_DONGLE
