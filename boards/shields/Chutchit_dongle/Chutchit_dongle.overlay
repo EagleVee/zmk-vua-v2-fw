@@ -18,8 +18,6 @@
 
 / {
     chosen {
-        zephyr,console = &cdc_acm_uart;
-        zephyr,shell-uart = &cdc_acm_uart;
         zmk,kscan = &mock_kscan;
         zmk,matrix_transform = &dongle_transform;
         zephyr,display = &oled;
