@@ -36,4 +36,15 @@ include:
 
 
   - board: nice_nano
+    shield: Chutchit_left
+    snippet: zmk-usb-logging
+    cmake-args: -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=y
+    artifact-name: Chutchit_left_logging
+
+  - board: nice_nano
+    shield: Chutchit_dongle
+    snippet: zmk-usb-logging
+    artifact-name: Chutchit_dongle_logging
+
+  - board: nice_nano
     shield: settings_reset

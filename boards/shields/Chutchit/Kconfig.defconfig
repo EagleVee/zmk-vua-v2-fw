@@ -16,6 +16,27 @@ config ZMK_SPLIT
 
 endif
 
+if SHIELD_CHUTCHIT_LEFT
+
+config ZMK_SPLIT_ESB_CENTRAL_PERIPHERALS
+    default 2
+
+endif
+
+if SHIELD_CHUTCHIT_RIGHT
+
+config ZMK_SPLIT_ESB_PERIPHERAL_INDEX
+    default 0
+
+endif
+
+if SHIELD_CHUTCHIT_NUM
+
+config ZMK_SPLIT_ESB_PERIPHERAL_INDEX
+    default 1
+
+endif
+
 # Force-enable Mouse Emulation and HID Mouse Reports
 CONFIG_ZMK_POINTING=y
 CONFIG_ZMK_HID_REPORT_MOUSE=y
