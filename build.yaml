@@ -47,4 +47,10 @@ include:
     artifact-name: Chutchit_dongle_logging
 
   - board: nice_nano
+    shield: Chutchit_num
+    snippet: zmk-usb-logging
+    cmake-args: -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
+    artifact-name: Chutchit_num_logging
+
+  - board: nice_nano
     shield: settings_reset
