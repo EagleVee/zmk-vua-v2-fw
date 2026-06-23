@@ -12,7 +12,7 @@ layers:
   - {t: '9', s: (}
   - {t: '0', s: )}
   - {t: '-', s: _}
-  - +
+  - {t: '=', s: +}
   - {t: \, s: '|'}
   - {t: '`', s: '~'}
   - $$mdi:backspace-reverse-outline$$
