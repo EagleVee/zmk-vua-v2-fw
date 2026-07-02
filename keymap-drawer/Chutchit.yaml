@@ -113,7 +113,7 @@ layers:
   - $$mdi:apple-keyboard-caps$$
   - OUT USB
   - OUT BLE
-  - OUT 2G4
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:bluetooth-off$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
