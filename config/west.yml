@@ -1,14 +1,17 @@
 manifest:
-  defaults:
-    revision: v0.3
   remotes:
-    - name: zmkfirmware
-      url-base: https://github.com/zmkfirmware
+    - name: eaglevee
+      url-base: https://github.com/EagleVee
     # Additional modules containing boards/shields/custom code can be listed here as well
     # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
   projects:
+    # zmks fork (EagleVee/zmks) based on upstream ZMK v0.3-branch.
+    # Project name stays "zmk" so the checkout path matches what the
+    # build-user-config workflow expects.
     - name: zmk
-      remote: zmkfirmware
+      repo-path: zmks
+      remote: eaglevee
+      revision: v0.3-lts-eaglevee
       import: app/west.yml
   self:
     path: config
